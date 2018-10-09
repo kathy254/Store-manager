@@ -61,3 +61,7 @@ button {
 	margin-top: 30px;
 	margin-right: 60px;
 }
+
+a:link {
+	color: #FFFFFF;
+}
