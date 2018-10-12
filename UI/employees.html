@@ -1,0 +1,154 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>Employees</title>
+</head>
+
+<body>
+
+	<div id="header">
+		<div>
+			<img id="headerLogo" src="images/shopping_cart.png" height="40px" width="40px">
+		</div>
+
+			<div id="storeName">
+			Store Manager
+			</div>
+
+			
+	</div>
+
+	<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">Administrator</button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="profile.html">My profile</a>
+					<a href="sales_records.html">Sales Records</a>
+					<a href="login.html">Logout</a>
+				 </div>
+			</div>
+
+	<div id="sideNavigation">
+		<ul><hr>
+			<li><a href="home.html"><b>Product Catalogue</b></a></li><hr>
+			<li><a href="girls_clothes.html">Girls' clothes</a></li><hr>
+			<li><a href="boys_clothes.html">Boys' clothes</a></li><hr>
+			<li><a href="ladies_clothes.html">Ladies' clothes</a></li><hr>
+			<li><a href="mens_clothes.html">Men's clothes</a></li><hr>
+			<li><a href="#"><b>Administration</b></a></li><hr>
+			<li><a href="inventory.html">Inventory</a></li><hr>
+			<li><a class="active" href="employees.html">Employee details</a></li><hr>
+			<li><a href="#">Settings</a></li>
+		</ul>
+
+	</div>
+
+	<div id="search">
+		<input type="text" placeholder="Search" name="search">
+	</div>
+
+	<div id="catalogue">
+
+		<div id="box">
+			<img class="cat" src="images/employee1.png" title="dress">
+
+			<p class="description">
+			Roles = Admin <img src="images/edit-16.png" title="Edit Roles"> <br>
+			Name = 5,000/= <br>
+			Product ID = 20<br>
+			<button type="button">View Profile</button>
+			</p>
+		</div>
+
+		<div class="active" id="box">
+			<img class="cat" src="images/employee2.png" title="suit">
+
+			<p class="description">
+			Roles = Attendant <img src="images/edit-16.png" title="Edit Roles"> <br>
+			Name = Mr. Price <br>
+			Employee ID = 11<br>
+			<button type="button">View Profile</button>
+			</p>
+		</div>
+
+		<div id="box">
+			<img class="cat" src="images/employee3.png" title="dress">
+
+			<p class="description">
+			Roles = Attendant <img src="images/edit-16.png" title="Edit Roles"> <br>
+			Name = Chairman <br>
+			Employee ID = 12<br>
+			<button type="button">View Profile</button>
+			</p>
+		</div>
+
+		<div id="box">
+			<img class="cat" src="images/employee4.png" title="T-shirt">
+
+			<p class="description">
+			Roles = Attendant <img src="images/edit-16.png" title="Edit Roles"> <br>
+			Name = Sherrif <br>
+			Employee ID = 13<br>
+			<button type="button">View Profile</button>
+			</p>
+		</div>
+
+		<div id="box">
+			<img class="cat" src="images/employee5.png" title="suit">
+
+			<p class="description">
+			Roles = Admin <img src="images/edit-16.png" title="Edit Roles"> <br>
+			Name = Boss Lady <br>
+			Employee ID = 14<br>
+			<button type="button">View Profile</button>
+			</p>
+		</div>
+
+		
+		<div id="box">
+			<img class="cat" src="images/employee6.png" title="dress">
+
+			<p class="description">
+			Roles = Attendant <img src="images/edit-16.png" title="Edit Roles"> <br>
+			Name = 5,000/= <br>
+			Employee ID = 15<br>
+			<button type="button">View Profile</button>
+			</p>
+		</div>
+
+		
+		
+	</div>
+
+	
+
+	<table id="tableCat">
+		<caption>Employee profile</caption>
+			<tr>
+				<th>Roles</th>
+				<th>Name</th>
+				<th>Employee ID</th>
+			</tr>
+
+
+			<tr>
+				<td>Attendant</td>
+				<td>Mr. John PRice</td>
+				<td>11</td>				
+			</tr>			
+
+		</table>		
+
+
+	<div id="footer">
+		&copy; 2018, Store Manager <br>
+		All rights reserved.
+	</div>
+	
+	<script type="text/javascript" src="dropdown.js"></script>
+
+</body>
+</html>
