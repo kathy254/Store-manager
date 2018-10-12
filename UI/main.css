@@ -44,6 +44,7 @@ body {
     background-color: #421C52;
     border-color: #421C52;
     padding: 3px 4px;
+
     border-radius: 10px;
     font-weight: bold;
     color: white;
@@ -52,19 +53,19 @@ body {
 }
 
 
+
 .dropbtn:hover, .dropbtn:focus {
     background-color: #421C52;
 }
 
 
 .dropdown {
-	float: right;
-	margin-right: 30px;
-	margin-bottom: 20px;
-    position: relative;
-    display: inline-block;
+	 float: right;
+	 margin-right: 30px;
+	 margin-bottom: 20px;
+   position: relative;
+   display: inline-block;
 }
-
 
 .dropdown-content {
     display: none;
@@ -112,7 +113,6 @@ img.cat {
 	clear: both;
   width: 150px;
 	height: 150px;
-
 
 }
 
