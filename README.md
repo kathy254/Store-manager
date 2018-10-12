@@ -1,5 +1,7 @@
 # Store-manager
 
+[![unlicense](https://img.shields.io/badge/un-license-green.svg?style=flat)](http://unlicense.org)
+
 **Pre-requisites**
 - Any browser
 
@@ -7,7 +9,7 @@
 Catherine Omondi
 
 **License**
-This site is licensed under UNlicense. See the LICENSE.MD file for details
+This site is licensed under Unlicense. See the LICENSE.MD file for details
 
 **Directions**
 Enter a dummy email address and password to access the site.
