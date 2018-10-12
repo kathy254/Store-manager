@@ -19,22 +19,28 @@
 			Store Manager
 			</div>
 
-			<div id="Attendant">
-				<p>Attendant</p>
-			</div>
-	
+			
 	</div>
+
+	<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">Attendant</button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="profile.html">My profile</a>
+					<a href="sales_records.html">Sales Records</a>
+					<a href="login.html">Logout</a>
+				 </div>
+			</div>
 
 	<div id="sideNavigation">
 		<ul><hr>
 			<li><a class="active" href="#home.html"><b>Product Catalogue</b></a></li><hr>
-			<li><a href="#">Girls' clothes</a></li><hr>
-			<li><a href="#">Boys' clothes</a></li><hr>
-			<li><a href="#">Ladies' clothes</a></li><hr>
-			<li><a href="#">Men's clothes</a></li><hr>
+			<li><a href="girls_clothes.html">Girls' clothes</a></li><hr>
+			<li><a href="boys_clothes.html">Boys' clothes</a></li><hr>
+			<li><a href="ladies_clothes.html">Ladies' clothes</a></li><hr>
+			<li><a href="mens_clothes.html">Men's clothes</a></li><hr>
 			<li><a href="#"><b>Administration</b></a></li><hr>
 			<li><a href="inventory.html">Inventory</a></li><hr>
-			<li><a href="#">Employee details</a></li><hr>
+			<li><a href="employees.html">Employee details</a></li><hr>
 			<li><a href="#">Settings</a></li>
 		</ul>
 
@@ -228,13 +234,20 @@
 			<tr>
 				<td colspan="3"><b>TOTAL</b></td>
 				<td><b>15,500/=</b></td>
+			</tr>
+
 		</table>
 
-	
+
+		<button id="orders">Process Orders</button>
+
 
 	<div id="footer">
 		&copy; 2018, Store Manager <br>
 		All rights reserved.
 	</div>
+	
+	<script type="text/javascript" src="dropdown.js"></script>
+
 </body>
 </html>
