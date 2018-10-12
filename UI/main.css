@@ -112,6 +112,7 @@ img.cat {
 	clear: both;
 	width: 150px;
 	height: 150px;
+
 }
 
 p.description {
@@ -164,6 +165,7 @@ a:active {
 	text-decoration: none;
 	background-color: #9C8AA5;
 }
+
 
 .active {
 	color: #FFFFFF;
